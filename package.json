@@ -7,6 +7,9 @@
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
+  "babel":{
+    "presets": ["env", "react"]
+  },
   "author": "Gabriel Esu",
   "license": "ISC",
   "dependencies": {
